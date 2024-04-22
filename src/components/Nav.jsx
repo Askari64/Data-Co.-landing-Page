@@ -23,14 +23,14 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav className="text-white flex justify-between items-center h-24 max-w-[1240px] m-auto px-4">
+    <nav className=" sticky top-0 z-50 text-white flex justify-between items-center h-24 max-w-[1240px] m-auto px-4">
       <h1 className="text-3xl font-bold text-[#00df9a]">REACT.</h1>
       <ul className=" hidden md:flex">
-        <li className="p-4">Home</li>
-        <li className="p-4">Company</li>
-        <li className="p-4">Resources</li>
-        <li className="p-4">About</li>
-        <li className="p-4">Contact</li>
+        <li className="p-4 cursor-pointer">Home</li>
+        <li className="p-4 cursor-pointer">Company</li>
+        <li className="p-4 cursor-pointer">Resources</li>
+        <li className="p-4 cursor-pointer">About</li>
+        <li className="p-4 cursor-pointer">Contact</li>
       </ul>
       <div onClick={handleNav} className=" block md:hidden">
         {!toggle ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />}
@@ -43,11 +43,15 @@ const Nav = () => {
         }
       >
         <ul className="uppercase p-4">
-          <li className="p-4 border-b border-gray-600">Home</li>
-          <li className="p-4 border-b border-gray-600">Company</li>
-          <li className="p-4 border-b border-gray-600">Resources</li>
-          <li className="p-4 border-b border-gray-600">About</li>
-          <li className="p-4">Contact</li>
+          <li className="p-4 border-b border-gray-600 cursor-pointer">Home</li>
+          <li className="p-4 border-b border-gray-600 cursor-pointer">
+            Company
+          </li>
+          <li className="p-4 border-b border-gray-600 cursor-pointer">
+            Resources
+          </li>
+          <li className="p-4 border-b border-gray-600 cursor-pointer">About</li>
+          <li className="p-4 cursor-pointer">Contact</li>
         </ul>
       </div>
     </nav>

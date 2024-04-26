@@ -23,7 +23,8 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav className=" sticky top-0 z-50 text-white flex justify-between items-center h-24 max-w-[1240px] m-auto px-4">
+    <nav className=" bg-[#000300] bg-opacity-95 w-full sticky top-0 z-50 text-white">
+      <div className="max-w-[1240px]  flex justify-between items-center m-auto  h-24  px-4 ">
       <h1 className="text-3xl font-bold text-[#00df9a]">REACT.</h1>
       <ul className=" hidden md:flex">
         <li className="p-4 cursor-pointer">Home</li>
@@ -54,6 +55,8 @@ const Nav = () => {
           <li className="p-4 cursor-pointer">Contact</li>
         </ul>
       </div>
+      </div>
+     
     </nav>
   );
 };

@@ -15,7 +15,7 @@ const Newsletter = () => {
               type="email"
               placeholder="Enter Email"
             />
-            <button className=" text-[#000300] bg-[#00df9a] w-[200px] rounded-md font-medium ml-4 my-6 px-6 py-3 ">
+            <button className=" text-[#000300] bg-[#00df9a] w-[160px] md:w-[200px] rounded-md font-medium ml-4 my-6 px-6 py-3 ">
               Notify Me
             </button>
           </div>

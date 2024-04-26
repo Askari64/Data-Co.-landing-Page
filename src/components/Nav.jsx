@@ -25,13 +25,12 @@ const Nav = () => {
   return (
     <nav className=" bg-[#000300] bg-opacity-95 w-full sticky top-0 z-50 text-white">
       <div className="max-w-[1240px]  flex justify-between items-center m-auto  h-24  px-4 ">
-      <h1 className="text-3xl font-bold text-[#00df9a]">REACT.</h1>
-      <ul className=" hidden md:flex">
+      <h1 className="text-3xl font-bold text-[#00df9a]">Data Co.</h1>
+      <ul className=" hidden md:flex items-center">
         <li className="p-4 cursor-pointer">Home</li>
         <li className="p-4 cursor-pointer">Company</li>
-        <li className="p-4 cursor-pointer">Resources</li>
         <li className="p-4 cursor-pointer">About</li>
-        <li className="p-4 cursor-pointer">Contact</li>
+        <li className="px-4 py-2 cursor-pointer  bg-white text-[#000300] rounded-md font-mediumw-full hover:bg-[#00df9a] hover:text-white ">Contact</li>
       </ul>
       <div onClick={handleNav} className=" block md:hidden">
         {!toggle ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />}
@@ -48,11 +47,8 @@ const Nav = () => {
           <li className="p-4 border-b border-gray-600 cursor-pointer">
             Company
           </li>
-          <li className="p-4 border-b border-gray-600 cursor-pointer">
-            Resources
-          </li>
           <li className="p-4 border-b border-gray-600 cursor-pointer">About</li>
-          <li className="p-4 cursor-pointer">Contact</li>
+          <li className="p-4 cursor-pointer ">Contact</li>
         </ul>
       </div>
       </div>

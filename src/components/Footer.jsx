@@ -14,7 +14,7 @@ const Footer = () => {
           Transform your data into actionable insights with our Data Analytics
           Dashboard.
         </p>
-        <div className="flex justify-between w-[25%] md:w-[75%] my-6">
+        <div className="flex justify-between w-[50%] md:w-[75%] my-6">
           <FaFacebookSquare size={30} />
           <FaInstagram size={30} />
           <FaTwitterSquare size={30} />

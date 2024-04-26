@@ -26,7 +26,7 @@ const Cards = () => {
         {/*Card 2*/}
         <div className=" bg-gray-100 w-full shadow-xl flex flex-col p-4 my-4 md:my-0 rounded-lg hover:scale-105 duration-300">
           <img
-            className=" w-20 mx-auto mt-[-3rem] bg-transparent"
+            className=" w-20 mx-auto md:mt-[-3rem] bg-transparent"
             src={Double}
             alt="Double"
           />

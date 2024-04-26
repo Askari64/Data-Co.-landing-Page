@@ -11,7 +11,7 @@ const Newsletter = () => {
         <div className="my-4">
           <div className=" flex flex-col sm:flex-row items-center justify-between w-full">
             <input
-              className="p-3 flex w-full rounded-md text-[#000300}"
+              className="p-3 flex w-full rounded-md text-[#000300]"
               type="email"
               placeholder="Enter Email"
             />
@@ -19,7 +19,10 @@ const Newsletter = () => {
               Notify Me
             </button>
           </div>
-          <p>We care about the protection of your data. Read our <span className="text-[#00df9a]">Privacy Policy</span></p>
+          <p>
+            We care about the protection of your data. Read our{" "}
+            <span className="text-[#00df9a]">Privacy Policy</span>
+          </p>
         </div>
       </div>
     </section>

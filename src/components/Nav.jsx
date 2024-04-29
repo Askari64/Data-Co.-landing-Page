@@ -30,7 +30,7 @@ const Nav = () => {
         <li className="p-4 cursor-pointer">Home</li>
         <li className="p-4 cursor-pointer">Company</li>
         <li className="p-4 cursor-pointer">About</li>
-        <li className="px-4 py-2 cursor-pointer  bg-white text-[#000300] rounded-md font-mediumw-full hover:bg-[#00df9a] hover:text-white ">Contact</li>
+        <li className="px-4 py-2 cursor-pointer  bg-white text-[#000300] rounded-md font-medium hover:bg-[#00df9a] hover:text-white ">Contact</li>
       </ul>
       <div onClick={handleNav} className=" block md:hidden">
         {!toggle ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />}
